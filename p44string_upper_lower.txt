@@ -1,8 +1,0 @@
-ch=input("Enter character =>")
-
-if ch.isupper():
-    print("upper")
-elif ch.islower():
-    print("lower")
-else:
-    print("Other")

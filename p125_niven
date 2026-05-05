@@ -1,0 +1,16 @@
+n = int(input("Enter number = "))
+
+c = n
+s = 0
+
+while n > 0:
+    y = n % 10
+    s = s + y
+    n = n // 10
+
+print("Sum of digits =", s)
+
+if c % s == 0:
+    print("Niven Number")
+else:
+    print("Not a Niven Number")

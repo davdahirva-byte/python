@@ -18,7 +18,8 @@ cur.execute("SELECT * FROM Student")
 data = cur.fetchall()
 
 for row in data:
-    print(row)
+    no,name,eng,hindi,ss,total,per,grade=row
+    print(no,name,eng,hindi,ss,total,per,grade)
 
 # Close connection
 cur.close()
